@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://voxabot.com/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://voxabot.com/commands</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://voxabot.com/nodes</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://voxabot.com/about</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://voxabot.com/feedback</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>
