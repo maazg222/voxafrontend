@@ -21,7 +21,7 @@ import {
 // Static Data
 const SOCIALS = [
   { name: 'Instagram', icon: <Instagram className="w-5 h-5" />, url: 'https://www.instagram.com/not_.maaz/', color: 'hover:text-pink-500' },
-  { name: 'TikTok', icon: <Music2 className="w-5 h-5" />, url: 'https://www.tiktok.com/@not_.maaz', color: 'hover:text-cyan-400' },
+  { name: 'TikTok', icon: <Music2 className="w-5 h-5" />, url: 'https://www.tiktok.com/@maazlodhi23', color: 'hover:text-cyan-400' },
   { name: 'Feds.lol', icon: <Link2 className="w-5 h-5" />, url: 'https://feds.lol/notmaaz', color: 'hover:text-purple-400' },
 ];
 
