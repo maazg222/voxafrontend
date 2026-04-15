@@ -176,7 +176,7 @@ const About = () => {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 md:mb-6 tracking-tighter glow-text leading-none will-change-transform"
+          className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 md:mb-6 tracking-tighter glow-text leading-none"
         >
           MEET THE <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">DEVELOPER</span>
         </motion.h1>
@@ -193,7 +193,7 @@ const About = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4 }}
             onMouseMove={handleMouseMove}
-            className="glass rounded-2xl md:rounded-[2rem] border-white/5 relative overflow-hidden group flex flex-col bg-[#0b1120]/40 shadow-2xl shadow-indigo-500/10 will-change-transform"
+            className="glass rounded-2xl md:rounded-[2rem] border-white/5 relative overflow-hidden group flex flex-col bg-[#0b1120]/40 shadow-2xl shadow-indigo-500/10"
           >
             {/* Dynamic Hover Glow */}
             <motion.div
@@ -326,12 +326,12 @@ const About = () => {
         </div>
 
         {/* Right Column: Details */}
-        <div className="xl:col-span-8 space-y-6 md:space-y-8">
+        <div className="lg:col-span-12 xl:col-span-8 space-y-6 md:space-y-8 w-full">
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.4 }}
-            className="glass p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-[2rem] border-white/5 relative overflow-hidden group will-change-transform"
+            className="glass p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-[2rem] border-white/5 relative overflow-hidden group"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-30 group-hover:opacity-100 transition-opacity"></div>
             
@@ -373,19 +373,19 @@ const About = () => {
             </div>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8 w-full">
             {/* Socials Section */}
             <motion.div 
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.4 }}
-              className="glass p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-[2rem] border-white/5 will-change-transform"
+              className="glass p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-[2rem] border-white/5 flex flex-col w-full"
             >
               <h3 className="text-base md:text-lg lg:text-xl font-black uppercase tracking-widest mb-5 md:mb-6 lg:mb-8 flex items-center gap-3 text-white">
                 <Link2 className="w-4 md:w-5 h-4 md:h-5 text-yellow-400" />
                 Network
               </h3>
-              <div className="space-y-3 md:space-y-4">
+              <div className="space-y-3 md:space-y-4 flex-grow">
                 {SOCIALS.map((social) => (
                   <SocialLink key={social.name} social={social} />
                 ))}
@@ -397,13 +397,13 @@ const About = () => {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.4 }}
-              className="glass p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-[2rem] border-white/5 will-change-transform"
+              className="glass p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-[2rem] border-white/5 flex flex-col w-full"
             >
               <h3 className="text-base md:text-lg lg:text-xl font-black uppercase tracking-widest mb-5 md:mb-6 lg:mb-8 flex items-center gap-3 text-white">
                 <Shield className="w-4 md:w-5 h-4 md:h-5 text-primary" />
                 Portfolio
               </h3>
-              <div className="space-y-3 md:space-y-4">
+              <div className="space-y-3 md:space-y-4 flex-grow">
                 {PROJECTS.map((project, index) => (
                   <ProjectCard 
                     key={project.name} 
