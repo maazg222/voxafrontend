@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://voxa.eu.cc/sitemap.xml
+Sitemap: https://voxa.eu.cc/sitemap.xml
